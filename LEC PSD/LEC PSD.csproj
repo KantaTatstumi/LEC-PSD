@@ -321,11 +321,11 @@
     <Compile Include="Views\Sign\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Views\HomePage\Navbar.Master.cs">
+    <Compile Include="Navbar.Master.cs">
       <DependentUpon>Navbar.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Views\HomePage\Navbar.Master.designer.cs">
+    <Compile Include="Navbar.Master.designer.cs">
       <DependentUpon>Navbar.Master</DependentUpon>
     </Compile>
     <Compile Include="Views\Sign\SignUp.aspx.cs">
@@ -387,7 +387,7 @@
       <DependentUpon>Model1.edmx</DependentUpon>
     </Content>
     <None Include="packages.config" />
-    <Content Include="Views\HomePage\Navbar.Master" />
+    <Content Include="Navbar.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
