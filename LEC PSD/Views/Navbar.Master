@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Navbar.master.cs" Inherits="LEC_PSD.Views.Navbar" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ImageButton ID="Back_button" ImageUrl="~/Images/Back_Arrow.png" runat="server" Height="55px" OnClientClick="JavaScript:window.history.back(1); return false;" style="margin-left: 78px; margin-top: 15px" />
+        <asp:ImageButton ID="Search_Button" ImageUrl="~/Images/Search_Button.png" runat="server" OnClientClick="javascript:return confirm('are you sure you want to search?'" OnClick="Search_Button_Click" Height="54px" style="margin-left: 110px; margin-top: 17px;" Width="83px"/>
+        <asp:TextBox ID="TextBox1" runat="server" style="margin-left: 0px" Width="855px" Height="40px"></asp:TextBox>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
