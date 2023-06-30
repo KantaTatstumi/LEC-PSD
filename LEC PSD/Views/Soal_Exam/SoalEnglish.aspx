@@ -6,11 +6,11 @@
         <p></p>
     <asp:Label ID="Eng_Soal1" runat="server" Text="Label" Visible="true"></asp:Label>
     <br />
-    <asp:RadioButton ID="Eng_jwb_Option_1_1" runat="server" Visible="true"/>
+    <asp:RadioButton ID="Eng_jwb_Option_1_1" runat="server" Visible="true" GroupName="Eng_Jwb_Option_1" OnCheckedChanged="Eng_jwb_Option_1_1_CheckedChanged"/>
     <br />
-    <asp:RadioButton ID="Eng_jwb_Option_1_2" runat="server" Visible="true"/>
+    <asp:RadioButton ID="Eng_jwb_Option_1_2" runat="server" Visible="true" GroupName="Eng_Jwb_Option_1"/>
     <br />
-    <asp:RadioButton ID="Eng_jwb_Option_1_3" runat="server" Visible="true"/>
+    <asp:RadioButton ID="Eng_jwb_Option_1_3" runat="server" Visible="true" GroupName="Eng_Jwb_Option_1"/>
     </div>
     <asp:Button ID="Submit_Eng_1" runat="server" Text="Submit" OnClick="Submit_Eng_1_Click"/>
 
@@ -18,11 +18,11 @@
         <p></p>
     <asp:Label ID="Eng_Soal2" runat="server" Text="Label" Visible="true"></asp:Label>
     <br />
-    <asp:RadioButton ID="Eng_jwb_Option_2_1" runat="server" Visible="true"/>
+    <asp:RadioButton ID="Eng_jwb_Option_2_1" runat="server" Visible="true" GroupName="Eng_Jwb_Option_2"/>
     <br />
-    <asp:RadioButton ID="Eng_jwb_Option_2_2" runat="server" Visible="true"/>
+    <asp:RadioButton ID="Eng_jwb_Option_2_2" runat="server" Visible="true" GroupName="Eng_Jwb_Option_2"/>
     <br />
-    <asp:RadioButton ID="Eng_jwb_Option_2_3" runat="server" Visible="true"/>
+    <asp:RadioButton ID="Eng_jwb_Option_2_3" runat="server" Visible="true" GroupName="Eng_Jwb_Option_2"/>
     </div>
     <asp:Button ID="Submit_Eng_2" runat="server" Text="Submit" OnClick="Submit_Eng_2_Click"/>
 
@@ -30,11 +30,11 @@
         <p></p>
     <asp:Label ID="Eng_Soal3" runat="server" Text="Label" Visible="true"></asp:Label>
     <br />
-    <asp:RadioButton ID="Eng_jwb_Option_3_1" runat="server" Visible="true"/>
+    <asp:RadioButton ID="Eng_jwb_Option_3_1" runat="server" Visible="true" GroupName="Eng_Jwb_Option_3"/>
     <br />
-    <asp:RadioButton ID="Eng_jwb_Option_3_2" runat="server" Visible="true"/>
+    <asp:RadioButton ID="Eng_jwb_Option_3_2" runat="server" Visible="true" GroupName="Eng_Jwb_Option_3"/>
     <br />
-    <asp:RadioButton ID="Eng_jwb_Option_3_3" runat="server" Visible="true"/>
+    <asp:RadioButton ID="Eng_jwb_Option_3_3" runat="server" Visible="true" GroupName="Eng_Jwb_Option_3"/>
     </div>
     <asp:Button ID="Submit_Eng_3" runat="server" Text="Submit" OnClick="Submit_Eng_3_Click"/>
 
@@ -42,11 +42,11 @@
         <p></p>
     <asp:Label ID="Eng_Soal4" runat="server" Text="Label" Visible="true"></asp:Label>
     <br />
-    <asp:RadioButton ID="Eng_jwb_Option_4_1" runat="server" Visible="true"/>
+    <asp:RadioButton ID="Eng_jwb_Option_4_1" runat="server" Visible="true" GroupName="Eng_Jwb_Option_4"/>
     <br />
-    <asp:RadioButton ID="Eng_jwb_Option_4_2" runat="server" Visible="true"/>
+    <asp:RadioButton ID="Eng_jwb_Option_4_2" runat="server" Visible="true" GroupName="Eng_Jwb_Option_4"/>
     <br />
-    <asp:RadioButton ID="Eng_jwb_Option_4_3" runat="server" Visible="true"/>
+    <asp:RadioButton ID="Eng_jwb_Option_4_3" runat="server" Visible="true" GroupName="Eng_Jwb_Option_4"/>
     </div>
     <asp:Button ID="Submit_Eng_4" runat="server" Text="Submit" OnClick="Submit_Eng_4_Click"/>
 
@@ -54,11 +54,11 @@
         <p></p>
     <asp:Label ID="Eng_Soal5" runat="server" Text="Label" Visible="true"></asp:Label>
     <br />
-    <asp:RadioButton ID="Eng_jwb_Option_5_1" runat="server" Visible="true"/>
+    <asp:RadioButton ID="Eng_jwb_Option_5_1" runat="server" Visible="true" GroupName="Eng_Jwb_Option_5"/>
     <br />
-    <asp:RadioButton ID="Eng_jwb_Option_5_2" runat="server" Visible="true"/>
+    <asp:RadioButton ID="Eng_jwb_Option_5_2" runat="server" Visible="true" GroupName="Eng_Jwb_Option_5"/>
     <br />
-    <asp:RadioButton ID="Eng_jwb_Option_5_3" runat="server" Visible="true"/>
+    <asp:RadioButton ID="Eng_jwb_Option_5_3" runat="server" Visible="true" GroupName="Eng_Jwb_Option_5"/>
     </div>
     <asp:Button ID="Submit_Eng_5" runat="server" Text="Submit" OnClick="Submit_Eng_5_Click"/>
 

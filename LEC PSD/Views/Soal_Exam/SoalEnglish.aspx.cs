@@ -179,5 +179,10 @@ namespace LEC_PSD.Views.Soal_Exam
         {
             Response.Redirect("~/Views/Course/English.aspx?id=" + Session["id"].ToString());
         }
+
+        protected void Eng_jwb_Option_1_1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
