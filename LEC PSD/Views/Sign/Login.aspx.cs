@@ -19,7 +19,7 @@ namespace LEC_PSD.Views
             HttpCookie cookie = Request.Cookies["ActiveUser"];
             if (cookie != null)
             {
-                Response.Redirect("~/Views/Home.aspx?id=" + cookie["id"].ToString());
+                Response.Redirect("~/Views/HomePage/Home.aspx?id=" + cookie["id"].ToString());
             }
 
         }
