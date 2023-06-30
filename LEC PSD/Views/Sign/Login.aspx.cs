@@ -38,7 +38,7 @@ namespace LEC_PSD.Views
 
                 if (accountDoesExist)
                 {
-                    Response.Redirect("~/Views/Home.aspx?id=" + Student_Handler.GetStudentId(email, password));
+                    Response.Redirect("~/Views/HomePage/Home.aspx?id=" + Student_Handler.GetStudentId(email, password));
                 } else
                 {
                     ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('username atau password salah atau akun belum terdaftar')", true);
