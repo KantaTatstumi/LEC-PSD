@@ -114,6 +114,7 @@
     <Content Include="Views\Course\Math.aspx" />
     <Content Include="Views\Course\Multimedia.aspx" />
     <Content Include="Views\HomePage\Home.aspx" />
+    <Content Include="Views\InputSoal\InputSoal.aspx" />
     <Content Include="Views\MockExam\EnglishMockExam.aspx" />
     <Content Include="Views\MockExam\FisikaMockExam.aspx" />
     <Content Include="Views\MockExam\IndoMockExam.aspx" />
@@ -132,12 +133,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\AnswerController.cs" />
+    <Compile Include="Controller\QuestionController.cs" />
     <Compile Include="Controller\StudentController.cs" />
     <Compile Include="Factory\AnswerFactory.cs" />
     <Compile Include="Factory\QuestionFactory.cs" />
     <Compile Include="Factory\StudentFactory.cs" />
     <Compile Include="Handler\AnswerHandler.cs" />
     <Compile Include="Handler\ClassHandler.cs" />
+    <Compile Include="Handler\LecturerHandler.cs" />
     <Compile Include="Handler\QuestionHandler.cs" />
     <Compile Include="Handler\StudentHandler.cs" />
     <Compile Include="Model\Answer.cs">
@@ -179,6 +182,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\AnswerRepo.cs" />
     <Compile Include="Repository\ClassRepo.cs" />
+    <Compile Include="Repository\LecturerRepo.cs" />
     <Compile Include="Repository\QuestionRepo.cs" />
     <Compile Include="Repository\StudentRepo.cs" />
     <Compile Include="Views\Bank_Soal\BankSoalEnglish.aspx.cs">
@@ -271,6 +275,13 @@
     </Compile>
     <Compile Include="Views\HomePage\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\InputSoal\InputSoal.aspx.cs">
+      <DependentUpon>InputSoal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\InputSoal\InputSoal.aspx.designer.cs">
+      <DependentUpon>InputSoal.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\MockExam\EnglishMockExam.aspx.cs">
       <DependentUpon>EnglishMockExam.aspx</DependentUpon>

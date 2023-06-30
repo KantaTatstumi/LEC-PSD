@@ -85,5 +85,14 @@ namespace LEC_PSD.Views.Course
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Eng_Bab4;
+
+        /// <summary>
+        /// Tambah_Soal_Eng control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Tambah_Soal_Eng;
     }
 }

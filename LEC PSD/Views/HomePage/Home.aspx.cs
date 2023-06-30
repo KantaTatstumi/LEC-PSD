@@ -19,6 +19,7 @@ namespace LEC_PSD.Views
             if(IsPostBack == false)
             {
                 string id = Request["id"];
+                
                 if(id != null)
                 {
                     Label_username.Text = Student_Handler.GetStudentById(id).Student_Name;

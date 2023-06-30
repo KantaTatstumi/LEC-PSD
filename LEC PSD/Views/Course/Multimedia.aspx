@@ -19,4 +19,9 @@
     <asp:Button ID="Multimedia_Bab2" runat="server" Text="Kalkulus" Height="56px" style="margin-left: 201px" Width="201px" />
     <asp:Button ID="Multimedia_Bab3" runat="server" Text="Algebra" Height="56px" style="margin-left: 200px" Width="200px" />
     <asp:Button ID="Multimedia_Bab4" runat="server" Text="Complex Calculation" Height="56px" style="margin-left: 462px" Width="201px" />
+
+     <p>
+        <br />
+        <asp:Button ID="Tambah_Soal_Multimedia" runat="server" Text="Tambah_Soal_Pelajaran" Height="56px" style="margin-left: 462px" Width="201px" Visible="false" OnClick="Tambah_Soal_Eng_Click"/>
+    </p>
 </asp:Content>

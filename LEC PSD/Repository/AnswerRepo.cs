@@ -12,9 +12,9 @@ namespace LEC_PSD.Repository
         Entities11 db = new Entities11();
         AnswerFactory Answer_Factory = new AnswerFactory();
 
-        public void RegToDatabase(string answer)
+        public void RegAnswerToDatabase(string id, string qst_id,string answer,string choice1, string choice2, string choice3)
         {
-            Answer answerInput = Answer_Factory.InputAnswer(answer);
+            Answer answerInput = Answer_Factory.InputAnswer(id,qst_id,answer,choice1,choice2,choice3);
             db.Answers.Add(answerInput);
             db.SaveChanges();
         }

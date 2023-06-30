@@ -14,6 +14,7 @@ namespace LEC_PSD.Views
     {
 
         StudentHandler Student_Handler = new StudentHandler();
+        LecturerHandler Lecturer_Handler = new LecturerHandler();
         protected void Page_Load(object sender, EventArgs e)
         {
             HttpCookie cookie = Request.Cookies["ActiveUser"];
@@ -34,12 +35,17 @@ namespace LEC_PSD.Views
                 ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Tolong isi username dan password')", true);
             } else
             {
-                Boolean accountDoesExist = Student_Handler.AccountDoesExist(email, password);
+                Boolean studentAccountDoesExist = Student_Handler.AccountDoesExist(email, password);
+                Boolean lecturerAccountDoesExist = Lecturer_Handler.AccountDoesExist(email, password);
 
-                if (accountDoesExist)
+                if (studentAccountDoesExist)
                 {
                     Response.Redirect("~/Views/HomePage/Home.aspx?id=" + Student_Handler.GetStudentId(email, password));
-                } else
+                } else if(lecturerAccountDoesExist)
+                {
+                    Response.Redirect("~/Views/HomePage/Home.aspx?id=" + Lecturer_Handler.GetLecturerId(email, password));
+                }
+                else
                 {
                     ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('username atau password salah atau akun belum terdaftar')", true);
                 }

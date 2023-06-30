@@ -14,6 +14,7 @@ namespace LEC_PSD.Views.Course
         protected void Page_Load(object sender, EventArgs e)
         {
             StudentHandler Student_Handler = new StudentHandler();
+            LecturerHandler Lecturer_Handler = new LecturerHandler();
 
             if(IsPostBack == false)
             {
@@ -28,7 +29,14 @@ namespace LEC_PSD.Views.Course
                 {
                     Response.Redirect("~/Views/Sign/Login.aspx");
                 }
+
+                if (Student_Handler.GetStudentById(id).Role_Id == 2)
+                {
+                    Tambah_Soal_Eng.Visible = true; 
+                }
             }
+
+           
         }
 
         protected void Eng_Mock_Click(object sender, EventArgs e)
@@ -44,6 +52,11 @@ namespace LEC_PSD.Views.Course
         protected void Eng_Bank_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/Views/Bank_Soal/BankSoalEnglish.aspx?id=" + Session["id"].ToString());
+        }
+
+        protected void Tambah_Soal_Eng_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Views/InputSoal/InputSoal.aspx?id=" + Session["id"].ToString());
         }
     }
 }

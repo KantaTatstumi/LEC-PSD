@@ -13,6 +13,7 @@ namespace LEC_PSD.Views.Course
         protected void Page_Load(object sender, EventArgs e)
         {
             StudentHandler Student_Handler = new StudentHandler();
+            LecturerHandler Lecturer_Handler = new LecturerHandler();
             if (IsPostBack == false)
             {
                 string id = Request["id"];
@@ -26,6 +27,12 @@ namespace LEC_PSD.Views.Course
                 {
                     Response.Redirect("~/Views/Sign/Login.aspx");
                 }
+
+                if (Lecturer_Handler.GetLecturerById(id).Role_Id == 2)
+                {
+                    Tambah_Soal_Fisika.Visible = true;
+                }
+
             }
         }
 

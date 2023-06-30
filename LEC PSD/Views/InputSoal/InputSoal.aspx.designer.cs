@@ -7,92 +7,110 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LEC_PSD.Views.Course
+namespace LEC_PSD.Views.InputSoal
 {
 
 
-    public partial class Mandarin
+    public partial class InputSoal
     {
 
         /// <summary>
-        /// Mandarin_Kelas control.
+        /// Question_Id control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Mandarin_Kelas;
+        protected global::System.Web.UI.WebControls.TextBox Question_Id;
 
         /// <summary>
-        /// Mandarin_Major control.
+        /// Course_Id control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Mandarin_Major;
+        protected global::System.Web.UI.WebControls.TextBox Course_Id;
 
         /// <summary>
-        /// mandarin_Bank control.
+        /// Question control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button mandarin_Bank;
+        protected global::System.Web.UI.WebControls.TextBox Question;
 
         /// <summary>
-        /// Mandarin_Mock control.
+        /// Execute_1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Mandarin_Mock;
+        protected global::System.Web.UI.WebControls.Button Execute_1;
 
         /// <summary>
-        /// Mandarin_Bab1 control.
+        /// Answer_Id control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Mandarin_Bab1;
+        protected global::System.Web.UI.WebControls.TextBox Answer_Id;
 
         /// <summary>
-        /// Mandarin_Bab2 control.
+        /// Answer_Qst_Id control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Mandarin_Bab2;
+        protected global::System.Web.UI.WebControls.TextBox Answer_Qst_Id;
 
         /// <summary>
-        /// Mandarin_Bab3 control.
+        /// Answer control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Mandarin_Bab3;
+        protected global::System.Web.UI.WebControls.TextBox Answer;
 
         /// <summary>
-        /// Mandarin_Bab4 control.
+        /// Choice1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Mandarin_Bab4;
+        protected global::System.Web.UI.WebControls.TextBox Choice1;
 
         /// <summary>
-        /// Tambah_Soal_Mandarin control.
+        /// Choice2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Tambah_Soal_Mandarin;
+        protected global::System.Web.UI.WebControls.TextBox Choice2;
+
+        /// <summary>
+        /// Choice3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Choice3;
+
+        /// <summary>
+        /// Execute_2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Execute_2;
     }
 }
