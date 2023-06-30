@@ -113,7 +113,7 @@
     <Content Include="Views\Course\Mandarin.aspx" />
     <Content Include="Views\Course\Math.aspx" />
     <Content Include="Views\Course\Multimedia.aspx" />
-    <Content Include="Views\Home.aspx" />
+    <Content Include="Views\HomePage\Home.aspx" />
     <Content Include="Views\MockExam\EnglishMockExam.aspx" />
     <Content Include="Views\MockExam\FisikaMockExam.aspx" />
     <Content Include="Views\MockExam\IndoMockExam.aspx" />
@@ -265,11 +265,11 @@
     <Compile Include="Views\Course\Multimedia.aspx.designer.cs">
       <DependentUpon>Multimedia.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Views\Home.aspx.cs">
+    <Compile Include="Views\HomePage\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Views\Home.aspx.designer.cs">
+    <Compile Include="Views\HomePage\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\MockExam\EnglishMockExam.aspx.cs">
@@ -321,11 +321,11 @@
     <Compile Include="Views\Sign\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Views\Navbar.Master.cs">
+    <Compile Include="Views\HomePage\Navbar.Master.cs">
       <DependentUpon>Navbar.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Views\Navbar.Master.designer.cs">
+    <Compile Include="Views\HomePage\Navbar.Master.designer.cs">
       <DependentUpon>Navbar.Master</DependentUpon>
     </Compile>
     <Compile Include="Views\Sign\SignUp.aspx.cs">
@@ -387,7 +387,7 @@
       <DependentUpon>Model1.edmx</DependentUpon>
     </Content>
     <None Include="packages.config" />
-    <Content Include="Views\Navbar.Master" />
+    <Content Include="Views\HomePage\Navbar.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

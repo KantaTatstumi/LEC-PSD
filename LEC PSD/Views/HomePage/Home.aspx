@@ -15,7 +15,6 @@
             <asp:ImageButton ID="Search_Button2" ImageUrl="~/Images/Search_Button.png" runat="server" OnClientClick="javascript:return confirm('are you sure you want to search?'" OnClick="Search_Button2_Click" Height="44px" style="margin-left: 71px" Width="75px"/>
         <asp:TextBox ID="TextBox1" runat="server" style="margin-left: 0px" Width="855px"></asp:TextBox>
             <br />
-           <%-- <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/banner1.png" Height="405px" style="margin-top: 23px" Width="1262px"/>--%>
             <br />
             <br />
             <h1>Video Based Learning</h1>
